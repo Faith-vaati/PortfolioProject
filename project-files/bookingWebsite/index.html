@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>ALX Ticket Booking Website</title>
+  </head>
+  <body>
+    <section id="hero">
+      <div class="hero-container">
+        <h1>ALX AFRICA   Accra - Ghana</h1>
+         <h2>We #DoHardThings and play HARD as well</h2> 
+        <a href="#about" class="btn-scroll scrollto" title="Scroll Down"
+          ><i class="bx bx-chevron-down"></i
+        ></a>
+      </div>
+    </section>
+    
+
+      
+      <div class="book">
+      
+          <div class="left">
+            
+           
+            <div class="legend">
+             
+              <div class="legend-item">
+                <div class="seat selected"></div>
+                <span>Selected</span>
+              </div>
+              <div class="legend-item">
+                <div class="seat occupied"></div>
+                <span>Booked</span>
+              </div>
+            </div>
+            <div class="cont">
+              <p>Selected Seats:</p>
+              <p>
+                VVIP seats = <span id="vvip-seat">0</span><br>
+                VIP1 seats = <span id="vip1-seat">0</span><br>
+                VIP2 seats = <span id="vip2-seat">0</span><br>
+                Normal seats = <span id="normal-seat">0</span><br>
+                Total seats selected = <span id="selected-seats">0</span>
+              </p>
+              <p>Total Price <br> ALX member : GH₵ <span id="total-price">0</span> <br> Non ALX member : GH₵ <span id="non-ica-total-price">0</span></p>
+            </div>
+            <button id="buy-ticket-button">Buy Ticket</button>
+
+            
+          </div>
+      
+            
+    
+            <!-- My html code -->
+    
+              
+            <div class="right">
+              <h2>VVIP SEATS</h2>
+              <p class="prices"> ALX member : GH₵ 15K<br>
+                Non ALX member : GH₵  16K</p>
+            <div class="vip-container">
+              <div class="grid-row vvip-seat" id="vvip" >
+                <!-- VIP section with 8 grids per row, starting from rowIndex 3 -->
+              </div>
+              <h2>VIP 1 SEATS</h2>
+              <p class="prices"> ALX member : GH₵ 10 <br>
+                Non ALX member : GH₵ 11  </p>
+            
+              <div class="grid-row vip1-seat" id="vip1">
+                <!-- VIP section with 8 grids per row, starting from rowIndex 3 -->
+              </div>
+              <h2>VIP 2 SEATS</h2>
+              <p class="prices"> ALX member : GH₵ 6 <br>
+                Non ALX member: GH₵ 7 </p>
+            
+              <div class="grid-row vip2-seat" id="vip2">
+                <!-- VIP section with 8 grids per row, starting from rowIndex 3 -->
+              </div>
+            </div>
+            
+            <h2>NORMAL SEATS</h2>
+            <p class="prices"> ALX member : GH₵ 3.5 <br>
+              Non ALX member: GH₵ 4 </p>
+            <div class="normal-container">
+              <div class="grid-row">
+                <!-- First row of 10 grids -->
+              </div>
+            
+              <div class="grid-row">
+                <!-- Second row of 10 grids -->
+              </div>
+              <div class="grid-row">
+                <!-- Second row of 10 grids -->
+              </div>
+              <div class="grid-row">
+                <!-- Second row of 10 grids -->
+              </div>
+              <div class="grid-row">
+                <!-- Second row of 10 grids -->
+              </div>
+              <div class="grid-row">
+                <!-- Second row of 10 grids -->
+              </div>
+              
+            </div>
+            
+            </div>
+          </div>
+            </div>
+    
+    
+      </section>
+
+     
+
+    <script src="script.js"></script>
+  </body>
+</html>
