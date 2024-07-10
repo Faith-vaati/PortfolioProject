@@ -9,9 +9,10 @@ Built with HTML5, CSS3, React.js, Node.js, Flask, and MySQL, the platform emphas
 
 Key features include detailed project descriptions, a visually appealing UI/UX design, real-time data updates, and advanced security protocols like encryption and multi-factor authentication. Utilizing Agile methodologies, I've prioritized user-centric design and continuous improvement, ensuring the portfolio reflects both my technical capabilities and commitment to innovation in software development.
 
-    Deployed Site: Visit Portfolio
-    Final Project Blog Article: Read Blog Post
-    Author: Faith Kitone
+Deployed Site: https://faithvaati.netlify.app
+Final Project Blog Article: https://www.linkedin.com/pulse/portfolio-blog-post-alx-faith-vaati-9ijzf/
+Author: Faith Kitone
+
 
 Installation
 
