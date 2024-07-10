@@ -3,11 +3,11 @@
  $name=$_POST["name"];
  $from=$_POST["email"];
  $msg=$_POST["message"];
- $receiver="drbenasmah2016@gmail.com";
+ $receiver="vaati.faith79@gmail.com";
  $subject="Contact MyWALL";
 
 $message = "
-<html>
+<html> 
 <head>
 <title>MyWALL Contact</title>
 </head>
