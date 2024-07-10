@@ -13,6 +13,22 @@ Deployed Site: https://faithvaati.netlify.app
 Final Project Blog Article: https://www.linkedin.com/pulse/portfolio-blog-post-alx-faith-vaati-9ijzf/
 Author: Faith Kitone
 
+Features
+
+    Interactive Project Showcase: Explore detailed project descriptions, technologies used, and their impact.
+    User-Centric Design: Emphasis on a visually appealing and intuitive UI/UX design.
+    Real-Time Updates: Integration with APIs for dynamic content updates.
+    Security: Implementation of advanced encryption standards and multi-factor authentication.
+    Performance Optimization: Lazy loading, optimized database queries, and efficient load balancing.
+
+Challenges Faced
+
+Building this portfolio wasn't without challenges:
+
+    Complex Data Integration: Overcoming difficulties in synchronizing data from various APIs efficiently.
+    Security Enhancements: Iteratively improving security measures to protect user data against evolving threats.
+    Performance Tuning: Optimizing the application's performance to handle high traffic and ensure responsiveness.
+
 
 Installation
 
